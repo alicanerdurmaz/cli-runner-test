@@ -7,10 +7,13 @@
         "preview": "vite preview"
     },
     "dependencies": {
+        "@pankod/refine-airtable": "^2.1.1",
         "@pankod/refine-antd": "^3.62.0",
-        "@pankod/refine-core": "^3.88.3",
+        "@pankod/refine-core": "^3.88.1",
+        "@pankod/refine-react-hook-form": "^3.31.0",
         "@pankod/refine-react-router-v6": "^3.36.2",
-        "@pankod/refine-simple-rest": "^3.35.0",
+        "@pankod/refine-simple-rest": "^2.6.0",
+        "@pankod/refine-strapi": "^3.18.0",
         "react": "^18.0.0",
         "react-dom": "^18.0.0",
         "react-mde": "^11.1.0"
