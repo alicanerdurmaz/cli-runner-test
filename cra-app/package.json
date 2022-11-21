@@ -3,7 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@pankod/refine-core": "^3.18.0",
+    "@pankod/refine-airtable": "2.1.1",
+    "@pankod/refine-antd": "^3.62.0",
+    "@pankod/refine-core": "3.88.1",
+    "@pankod/refine-react-hook-form": "3.31.0",
+    "@pankod/refine-react-router-v6": "^3.18.0",
+    "@pankod/refine-simple-rest": "2.6.0",
+    "@pankod/refine-strapi": "3.18.0",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
@@ -11,14 +17,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.0",
-    "web-vitals": "^1.1.1",
-    "@pankod/refine-simple-rest": "^3.18.0",
-    "@pankod/refine-react-router-v6": "^3.18.0"
+    "web-vitals": "^1.1.1"
   },
   "devDependencies": {
+    "@types/node": "^12.20.10",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
-    "@types/node": "^12.20.10",
     "typescript": "^4.7.4"
   },
   "scripts": {
