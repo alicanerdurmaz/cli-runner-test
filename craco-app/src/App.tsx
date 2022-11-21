@@ -1,29 +1,18 @@
-import React from "react";
+import React from 'react'
 
-import { Refine } from "@pankod/refine-core";
-import {
-  notificationProvider,
-  ReadyPage,
-  ErrorComponent,
-} from "@pankod/refine-antd";
+import { Refine } from '@pankod/refine-core'
+import { notificationProvider, ReadyPage, ErrorComponent } from '@pankod/refine-antd'
 
-import dataProvider from "@pankod/refine-simple-rest";
-import routerProvider from "@pankod/refine-react-router-v6";
-import "styles/antd.less";
-import {
-  Title,
-  Header,
-  Sider,
-  Footer,
-  Layout,
-  OffLayoutArea,
-} from "components/layout";
-import { PostList, PostCreate, PostEdit, PostShow } from "pages/posts";
+import dataProvider from '@pankod/refine-simple-rest'
+import routerProvider from '@pankod/refine-react-router-v6'
+import 'styles/antd.less'
+import { Title, Header, Sider, Footer, Layout, OffLayoutArea } from 'components/layout'
+import { PostList, PostCreate, PostEdit, PostShow } from 'pages/posts'
 
 function App() {
   return (
     <Refine
-      dataProvider={dataProvider("https://api.fake-rest.refine.dev")}
+      dataProvider={dataProvider('https://api.fake-rest.refine.dev') as any}
       notificationProvider={notificationProvider}
       ReadyPage={ReadyPage}
       catchAll={<ErrorComponent />}
@@ -36,7 +25,7 @@ function App() {
       routerProvider={routerProvider}
       resources={[
         {
-          name: "posts",
+          name: 'posts',
           list: PostList,
           create: PostCreate,
           edit: PostEdit,
@@ -44,7 +33,7 @@ function App() {
         },
       ]}
     />
-  );
+  )
 }
 
-export default App;
+export default App

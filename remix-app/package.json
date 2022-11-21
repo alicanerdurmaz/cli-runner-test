@@ -9,14 +9,18 @@
     "start": "remix-serve build"
   },
   "dependencies": {
-    "@pankod/refine-core": "^3.58.1",
+    "@pankod/refine-airtable": "^2.1.1",
+    "@pankod/refine-antd": "^3.62.0",
+    "@pankod/refine-core": "^3.88.1",
+    "@pankod/refine-react-hook-form": "^3.31.0",
     "@pankod/refine-remix-router": "^1.0.2",
+    "@pankod/refine-simple-rest": "^2.6.0",
+    "@pankod/refine-strapi": "^3.18.0",
     "@remix-run/node": "^1.6.8",
     "@remix-run/react": "^1.6.8",
     "@remix-run/serve": "^1.6.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@pankod/refine-simple-rest": "^3.18.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.6.8",
